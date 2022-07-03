@@ -1,25 +1,26 @@
 global:
-  scrape_interval: 15s
-  scrape_timeout: 10s
-  evaluation_interval: 15s
+  scrape_interval: 3s
+  scrape_timeout: 3s
+  evaluation_interval: 3s
 alerting:
   alertmanagers:
-  - follow_redirects: true
-    scheme: http
-    timeout: 10s
-    api_version: v2
-    static_configs:
-    - targets: []
+    - follow_redirects: true
+      scheme: http
+      timeout: 10s
+      api_version: v2
+      static_configs:
+        - targets: []
 scrape_configs:
-- job_name: node
-  honor_timestamps: true
-  scrape_interval: 15s
-  scrape_timeout: 10s
-  scheme: http
-  follow_redirects: true
-  static_configs:
-  - targets:
-    - pushgateway:9091
-  # metric_relabel_configs :
-  # - regex: exported_job
-  #   action: labeldrop
+  - job_name: node
+    honor_timestamps: true
+    scrape_interval: 3s
+    scrape_timeout: 3s
+    scheme: http
+    follow_redirects: true
+    honor_labels: true
+    static_configs:
+      - targets:
+          - pushgateway:9091
+    # metric_relabel_configs :
+    # - regex: exported_job
+    #   action: labeldrop
