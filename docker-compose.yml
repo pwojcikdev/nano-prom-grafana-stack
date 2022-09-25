@@ -1,5 +1,5 @@
 version: '3.8'
-    
+
 volumes:
   grafana_data: {}
   prometheus_data: {}
@@ -19,7 +19,6 @@ services:
     volumes:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml
       - prometheus_data:/prometheus
-    # tmpfs: /prometheus:uid=99
     command:
       - '--config.file=/etc/prometheus/prometheus.yml'
       - '--storage.tsdb.path=/prometheus'
@@ -28,12 +27,11 @@ services:
       - '--web.enable-lifecycle'
     expose:
       - 9090
-    # ports:
-    #   - 9090:9090
+    ports:
+      - 9090:9090
 
   grafana:
-    # 8.3.3 - terrible dashboard graph flashing
-    image: grafana/grafana:8.3.2
+    image: grafana/grafana:latest
     restart: unless-stopped
     user: "472"
     depends_on:
@@ -43,5 +41,5 @@ services:
     volumes:
       - grafana_data:/var/lib/grafana
       - ./grafana/provisioning/:/etc/grafana/provisioning/
-    # env_file:
-      # - ./grafana/config.monitoring
+    environment:
+      - GF_AUTH_LOGIN_COOKIE_NAME=${NAME}-grafana
