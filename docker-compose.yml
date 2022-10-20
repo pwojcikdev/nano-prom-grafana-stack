@@ -42,4 +42,4 @@ services:
       - grafana_data:/var/lib/grafana
       - ./grafana/provisioning/:/etc/grafana/provisioning/
     environment:
-      - GF_AUTH_LOGIN_COOKIE_NAME=${NAME}-grafana
+      - GF_AUTH_LOGIN_COOKIE_NAME=${NAME:-local}-grafana
