@@ -38,7 +38,7 @@ services:
     depends_on:
       - prometheus
     ports:
-      - ${BIND:-127.0.0.1}:${GRAFANA_PORT:-3000}:3000
+      - ${GRAFANA_PORT:-3000}:3000
     volumes:
       - grafana_data:/var/lib/grafana
       - ./grafana/provisioning/:/etc/grafana/provisioning/
