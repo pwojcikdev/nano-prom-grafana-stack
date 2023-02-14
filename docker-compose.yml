@@ -46,3 +46,11 @@ services:
       - ./grafana/provisioning/:/etc/grafana/provisioning/
     environment:
       - GF_AUTH_LOGIN_COOKIE_NAME=${NAME:-local}-grafana
+
+  pushgateway-cleaner:
+    image: onuryilmaz/prometheus-pushgateway-cleaner
+    restart: unless-stopped
+    command:
+      - '-address=http://pushgateway:9091'
+      - '-ttl=0h0m10s'
+      - '-debug=true'
