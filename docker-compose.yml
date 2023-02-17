@@ -9,7 +9,7 @@ services:
     image: prom/pushgateway:latest
     restart: unless-stopped
     ports:
-      - ${PUSH_PORT:-9091}:9091
+      - ${PUSH_BIND:-127.0.0.1}:${PUSH_PORT:-9091}:9091
     expose:
       - 9091
 
@@ -27,7 +27,7 @@ services:
       - '--web.console.templates=/etc/prometheus/consoles'
       - '--web.enable-lifecycle'
     ports:
-      - ${PROM_PORT:-9090}:9090
+      - ${PROM_BIND:-127.0.0.1}:${PROM_PORT:-9090}:9090
     expose:
       - 9090
 
