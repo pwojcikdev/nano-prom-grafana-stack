@@ -26,7 +26,6 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
-  "id": 4,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -760,8 +759,7 @@
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -895,8 +893,7 @@
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -1026,8 +1023,7 @@
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -1148,7 +1144,8 @@
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green"
+                    "color": "green",
+                    "value": null
                   },
                   {
                     "color": "red",
@@ -1158,32 +1155,7 @@
               },
               "unit": "none"
             },
-            "overrides": [
-              {
-                "__systemRef": "hideSeriesFrom",
-                "matcher": {
-                  "id": "byNames",
-                  "options": {
-                    "mode": "exclude",
-                    "names": [
-                      "[ live ] unchecked"
-                    ],
-                    "prefix": "All except:",
-                    "readOnly": true
-                  }
-                },
-                "properties": [
-                  {
-                    "id": "custom.hideFrom",
-                    "value": {
-                      "legend": false,
-                      "tooltip": false,
-                      "viz": true
-                    }
-                  }
-                ]
-              }
-            ]
+            "overrides": []
           },
           "gridPos": {
             "h": 9,
@@ -1218,7 +1190,7 @@
               },
               "editorMode": "code",
               "exemplar": true,
-              "expr": "nano_block_count{job='${Job}', instance=~'${Instance}', type=~'unchecked'}",
+              "expr": "nano_block_count{job='${Job}', instance=~'${Instance}', type='unchecked'}",
               "interval": "${Step}",
               "legendFormat": "[ {{instance}} ] {{type}}",
               "range": true,
@@ -3768,6 +3740,6 @@
   "timezone": "browser",
   "title": "Overview",
   "uid": "nano-overview",
-  "version": 183,
+  "version": 1,
   "weekStart": ""
 }
