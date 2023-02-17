@@ -44,6 +44,7 @@ services:
     volumes:
       - grafana_data:/var/lib/grafana
       - ./grafana/provisioning/:/etc/grafana/provisioning/
+      - ./dashboards:/etc/dashboards
     environment:
       - GF_AUTH_LOGIN_COOKIE_NAME=${NAME:-local}-grafana
 
