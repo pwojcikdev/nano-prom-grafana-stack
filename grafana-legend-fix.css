@@ -1,6 +1,0 @@
-/* This should be used in an extension called 'Stylish' */
-@-moz-document url-prefix("http://localhost") {
-    .css-12b7m5k {
-        min-width: 600px;
-    }
-}
