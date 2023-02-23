@@ -129,7 +129,7 @@
           "displayMode": "table",
           "placement": "right",
           "showLegend": true,
-          "width": 600
+          "width": 450
         },
         "tooltip": {
           "mode": "multi",
@@ -227,7 +227,7 @@
           "displayMode": "table",
           "placement": "right",
           "showLegend": true,
-          "width": 600
+          "width": 450
         },
         "tooltip": {
           "mode": "multi",
@@ -378,7 +378,7 @@
           "showLegend": true,
           "sortBy": "Last",
           "sortDesc": true,
-          "width": 600
+          "width": 450
         },
         "tooltip": {
           "mode": "multi",
@@ -563,7 +563,7 @@
           "showLegend": true,
           "sortBy": "Last",
           "sortDesc": true,
-          "width": 600
+          "width": 450
         },
         "tooltip": {
           "mode": "multi",
@@ -671,7 +671,7 @@
           "showLegend": true,
           "sortBy": "Last",
           "sortDesc": true,
-          "width": 600
+          "width": 450
         },
         "tooltip": {
           "mode": "multi",
@@ -790,7 +790,7 @@
               "showLegend": true,
               "sortBy": "Last",
               "sortDesc": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -925,7 +925,7 @@
               "showLegend": true,
               "sortBy": "Last",
               "sortDesc": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -1055,7 +1055,7 @@
               "showLegend": true,
               "sortBy": "Last",
               "sortDesc": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -1174,7 +1174,7 @@
               "showLegend": true,
               "sortBy": "Last",
               "sortDesc": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -1279,7 +1279,7 @@
               "showLegend": true,
               "sortBy": "Last",
               "sortDesc": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -1396,7 +1396,7 @@
               "showLegend": true,
               "sortBy": "Last",
               "sortDesc": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -1501,7 +1501,7 @@
               "showLegend": true,
               "sortBy": "Last",
               "sortDesc": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -1616,7 +1616,7 @@
               "displayMode": "table",
               "placement": "right",
               "showLegend": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -1752,7 +1752,7 @@
               "showLegend": true,
               "sortBy": "Last",
               "sortDesc": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -1882,7 +1882,7 @@
               "showLegend": true,
               "sortBy": "Last",
               "sortDesc": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -2002,7 +2002,7 @@
               "displayMode": "table",
               "placement": "right",
               "showLegend": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "single",
@@ -2226,7 +2226,7 @@
               "showLegend": true,
               "sortBy": "Last *",
               "sortDesc": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -2356,7 +2356,7 @@
               "displayMode": "table",
               "placement": "right",
               "showLegend": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -2485,7 +2485,7 @@
               "displayMode": "table",
               "placement": "right",
               "showLegend": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
@@ -2615,7 +2615,7 @@
               "displayMode": "table",
               "placement": "right",
               "showLegend": true,
-              "width": 600
+              "width": 450
             },
             "tooltip": {
               "mode": "multi",
