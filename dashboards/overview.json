@@ -810,7 +810,7 @@
               "exemplar": true,
               "expr": "nano_stats_objects_count{job='${Job}', instance=~'${Instance}',l1=~'${stats_objects_l1}'}",
               "interval": "${Step}",
-              "legendFormat": "[ {{instance}} ] {{l1}} : {{l2}}",
+              "legendFormat": "[ {{instance}} ] {{l2}}",
               "range": true,
               "refId": "A"
             }
@@ -945,7 +945,7 @@
               "exemplar": true,
               "expr": "rate(nano_stats_counters{job='${Job}', instance=~'${Instance}',type=~'${stats_type}',dir=~'${stats_dir}',detail=~'${stats_detail}'}[${Rate}])",
               "interval": "${Step}",
-              "legendFormat": "[ {{instance}} ] {{type}} : {{detail}} : {{dir}} ",
+              "legendFormat": "[ {{instance}} ] {{detail}} : {{dir}} ",
               "range": true,
               "refId": "A"
             }
@@ -1075,7 +1075,7 @@
               "exemplar": true,
               "expr": "max_over_time(nano_stats_objects_count{job='${Job}', instance=~'${Instance}',l1='active',l2=~'normal|hinted|optimistic'}[$__interval])",
               "interval": "",
-              "legendFormat": "[ {{instance}} ] {{l1}} : {{l2}}",
+              "legendFormat": "[ {{instance}} ] {{l2}}",
               "range": true,
               "refId": "A"
             }
@@ -1902,7 +1902,7 @@
               "exemplar": true,
               "expr": "rate(nano_stats_counters{job='${Job}', instance=~'${Instance}',type=~'message',dir=~'${stats_dir}',detail='${message_type}'}[${Rate}])",
               "interval": "${Step}",
-              "legendFormat": "[ {{instance}} ] {{type}} : {{detail}} : {{dir}} ",
+              "legendFormat": "[ {{instance}} ] {{detail}} : {{dir}} ",
               "range": true,
               "refId": "A"
             }
@@ -2376,7 +2376,7 @@
               "exemplar": true,
               "expr": "nano_stats_counters{job='${Job}', instance=~'${Instance}',type=~'${stats_type}',dir=~'${stats_dir}'}",
               "interval": "${Step}",
-              "legendFormat": "[ {{instance}} ] {{type}} : {{detail}} : {{dir}}",
+              "legendFormat": "[ {{instance}} ] {{detail}} : {{dir}}",
               "range": true,
               "refId": "A"
             }
@@ -2505,7 +2505,7 @@
               "exemplar": true,
               "expr": "deriv(nano_stats_objects_count{job='${Job}', instance=~'${Instance}',l1=~'${stats_objects_l1}'}[${Rate}])",
               "interval": "${Step}",
-              "legendFormat": "[ {{instance}} ] {{l1}} : {{l2}} : {{l3}}",
+              "legendFormat": "[ {{instance}} ] {{l2}}",
               "range": true,
               "refId": "A"
             }
@@ -2635,12 +2635,12 @@
               "exemplar": true,
               "expr": "nano_stats_objects_size{job='${Job}', instance=~'${Instance}',l1=~'${stats_objects_l1}'}",
               "interval": "${Step}",
-              "legendFormat": "{{instance}} {{l1}}:{{l2}}:{{l3}} size",
+              "legendFormat": "[ {{instance}} ] {{l2}}",
               "range": true,
               "refId": "A"
             }
           ],
-          "title": "${stats_objects_l1}",
+          "title": "${stats_objects_l1} (size)",
           "type": "timeseries"
         }
       ],
