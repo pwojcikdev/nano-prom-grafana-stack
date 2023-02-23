@@ -1073,14 +1073,14 @@
               },
               "editorMode": "code",
               "exemplar": true,
-              "expr": "avg_over_time(nano_stats_objects_count{job='${Job}', instance=~'${Instance}',l1='active',l2=~'normal|hinted|optimistic'}[$__interval])",
+              "expr": "max_over_time(nano_stats_objects_count{job='${Job}', instance=~'${Instance}',l1='active',l2=~'normal|hinted|optimistic'}[$__interval])",
               "interval": "",
               "legendFormat": "[ {{instance}} ] {{l1}} : {{l2}}",
               "range": true,
               "refId": "A"
             }
           ],
-          "title": "Active Elections (avg over $__interval) [ ${Instance} ]",
+          "title": "Active Elections (max over $__interval) [ ${Instance} ]",
           "type": "timeseries"
         }
       ],
@@ -3740,6 +3740,6 @@
   "timezone": "browser",
   "title": "Overview",
   "uid": "nano-overview",
-  "version": 1,
+  "version": 2,
   "weekStart": ""
 }
