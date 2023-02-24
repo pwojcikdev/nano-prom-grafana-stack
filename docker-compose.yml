@@ -47,6 +47,13 @@ services:
       - ./dashboards:/etc/dashboards
     environment:
       - GF_AUTH_LOGIN_COOKIE_NAME=${NAME:-local}-grafana
+      - GF_RENDERING_SERVER_URL=http://grafana-renderer:8081/render
+      - GF_RENDERING_CALLBACK_URL=http://grafana:${GRAFANA_PORT:-3000}/
+
+  grafana-renderer:
+    image: grafana/grafana-image-renderer:latest
+    ports:
+      - 8081
 
   pushgateway-cleaner:
     image: onuryilmaz/prometheus-pushgateway-cleaner
