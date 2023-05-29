@@ -56,7 +56,7 @@ services:
       - 8081
 
   pushgateway-cleaner:
-    image: onuryilmaz/prometheus-pushgateway-cleaner
+    image: pwojcikdev/prometheus-pushgateway-cleaner
     restart: unless-stopped
     command:
       - '-address=http://pushgateway:9091'
