@@ -457,7 +457,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 34
+        "y": 14
       },
       "id": 2,
       "panels": [],
@@ -572,7 +572,7 @@
         "h": 10,
         "w": 24,
         "x": 0,
-        "y": 35
+        "y": 15
       },
       "id": 40,
       "options": {
@@ -712,7 +712,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 45
+        "y": 25
       },
       "id": 8,
       "options": {
@@ -764,7 +764,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 53
+        "y": 33
       },
       "id": 49,
       "panels": [
@@ -916,7 +916,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 54
+        "y": 34
       },
       "id": 805,
       "panels": [
@@ -967,8 +967,7 @@
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -1063,7 +1062,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 55
+        "y": 35
       },
       "id": 110,
       "panels": [
@@ -1114,8 +1113,7 @@
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -1193,7 +1191,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 56
+        "y": 36
       },
       "id": 1750,
       "panels": [
@@ -1244,8 +1242,7 @@
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -1349,8 +1346,7 @@
                 "mode": "absolute",
                 "steps": [
                   {
-                    "color": "green",
-                    "value": null
+                    "color": "green"
                   },
                   {
                     "color": "red",
@@ -1420,7 +1416,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 57
+        "y": 37
       },
       "id": 1332,
       "panels": [
@@ -1642,7 +1638,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 58
+        "y": 38
       },
       "id": 1306,
       "panels": [
@@ -1864,7 +1860,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 59
+        "y": 39
       },
       "id": 1807,
       "panels": [
@@ -2138,7 +2134,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 60
+        "y": 40
       },
       "id": 1139,
       "panels": [
@@ -2269,7 +2265,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 61
+        "y": 41
       },
       "id": 38,
       "panels": [
@@ -2398,7 +2394,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 62
+        "y": 42
       },
       "id": 1183,
       "panels": [
@@ -2539,7 +2535,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 63
+        "y": 43
       },
       "id": 1148,
       "panels": [
@@ -2657,7 +2653,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 64
+        "y": 44
       },
       "id": 1746,
       "panels": [
@@ -2760,7 +2756,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 65
+        "y": 45
       },
       "id": 1131,
       "panels": [
@@ -2897,7 +2893,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 66
+        "y": 46
       },
       "id": 919,
       "panels": [
@@ -3026,7 +3022,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 67
+        "y": 47
       },
       "id": 183,
       "panels": [
@@ -3156,7 +3152,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 68
+        "y": 48
       },
       "id": 25,
       "panels": [
@@ -3626,7 +3622,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 69
+        "y": 49
       },
       "id": 42,
       "panels": [
@@ -3716,7 +3712,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 70
+        "y": 50
       },
       "id": 1036,
       "panels": [
@@ -3850,8 +3846,8 @@
         "allValue": "",
         "current": {
           "selected": false,
-          "text": "fullnet_2023-09-18_18-30-40",
-          "value": "fullnet_2023-09-18_18-30-40"
+          "text": "beta_2023-11-08_19:02:28.249793",
+          "value": "beta_2023-11-08_19:02:28.249793"
         },
         "datasource": {
           "type": "prometheus",
@@ -4043,12 +4039,12 @@
       {
         "allValue": "",
         "current": {
-          "selected": false,
+          "selected": true,
           "text": [
-            "cemented"
+            "All"
           ],
           "value": [
-            "cemented"
+            "$__all"
           ]
         },
         "hide": 0,
@@ -4057,12 +4053,12 @@
         "name": "Blocks",
         "options": [
           {
-            "selected": false,
+            "selected": true,
             "text": "All",
             "value": "$__all"
           },
           {
-            "selected": true,
+            "selected": false,
             "text": "cemented",
             "value": "cemented"
           },
@@ -4233,6 +4229,6 @@
   "timezone": "browser",
   "title": "Overview",
   "uid": "nano-overview",
-  "version": 36,
+  "version": 38,
   "weekStart": ""
 }
