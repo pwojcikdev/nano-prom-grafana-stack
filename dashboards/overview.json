@@ -26,6 +26,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
+  "id": 9,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -66,6 +67,7 @@
             "mode": "palette-classic"
           },
           "custom": {
+            "axisBorderShow": false,
             "axisCenteredZero": false,
             "axisColorMode": "text",
             "axisLabel": "",
@@ -80,6 +82,7 @@
               "tooltip": false,
               "viz": false
             },
+            "insertNulls": false,
             "lineInterpolation": "linear",
             "lineWidth": 1,
             "pointSize": 3,
@@ -165,6 +168,7 @@
             "mode": "palette-classic"
           },
           "custom": {
+            "axisBorderShow": false,
             "axisCenteredZero": false,
             "axisColorMode": "text",
             "axisLabel": "",
@@ -179,6 +183,7 @@
               "tooltip": false,
               "viz": false
             },
+            "insertNulls": false,
             "lineInterpolation": "linear",
             "lineWidth": 1,
             "pointSize": 5,
@@ -213,7 +218,7 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 5,
+        "h": 4,
         "w": 24,
         "x": 0,
         "y": 4
@@ -258,7 +263,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 9
+        "y": 8
       },
       "id": 1748,
       "panels": [],
@@ -277,6 +282,7 @@
             "mode": "palette-classic"
           },
           "custom": {
+            "axisBorderShow": false,
             "axisCenteredZero": false,
             "axisColorMode": "text",
             "axisLabel": "",
@@ -291,6 +297,7 @@
               "tooltip": false,
               "viz": false
             },
+            "insertNulls": false,
             "lineInterpolation": "linear",
             "lineWidth": 1,
             "pointSize": 5,
@@ -362,10 +369,10 @@
         ]
       },
       "gridPos": {
-        "h": 4,
+        "h": 5,
         "w": 24,
         "x": 0,
-        "y": 10
+        "y": 9
       },
       "id": 1258,
       "options": {
@@ -484,6 +491,7 @@
             "mode": "palette-classic"
           },
           "custom": {
+            "axisBorderShow": false,
             "axisCenteredZero": false,
             "axisColorMode": "text",
             "axisLabel": "",
@@ -498,6 +506,7 @@
               "tooltip": false,
               "viz": false
             },
+            "insertNulls": false,
             "lineInterpolation": "linear",
             "lineWidth": 1,
             "pointSize": 5,
@@ -623,6 +632,7 @@
             "mode": "palette-classic"
           },
           "custom": {
+            "axisBorderShow": false,
             "axisCenteredZero": false,
             "axisColorMode": "text",
             "axisLabel": "",
@@ -637,6 +647,7 @@
               "tooltip": false,
               "viz": false
             },
+            "insertNulls": false,
             "lineInterpolation": "linear",
             "lineWidth": 1,
             "pointSize": 5,
@@ -780,6 +791,7 @@
                 "mode": "palette-classic"
               },
               "custom": {
+                "axisBorderShow": false,
                 "axisCenteredZero": false,
                 "axisColorMode": "text",
                 "axisLabel": "",
@@ -794,6 +806,7 @@
                   "tooltip": false,
                   "viz": false
                 },
+                "insertNulls": false,
                 "lineInterpolation": "linear",
                 "lineWidth": 1,
                 "pointSize": 5,
@@ -849,7 +862,7 @@
             "h": 10,
             "w": 24,
             "x": 0,
-            "y": 54
+            "y": 34
           },
           "id": 51,
           "interval": "",
@@ -1000,7 +1013,7 @@
             "h": 10,
             "w": 24,
             "x": 0,
-            "y": 55
+            "y": 63
           },
           "id": 807,
           "options": {
@@ -1129,7 +1142,7 @@
             "h": 10,
             "w": 24,
             "x": 0,
-            "y": 56
+            "y": 64
           },
           "id": 69,
           "options": {
@@ -1206,6 +1219,7 @@
                 "mode": "palette-classic"
               },
               "custom": {
+                "axisBorderShow": false,
                 "axisCenteredZero": false,
                 "axisColorMode": "text",
                 "axisLabel": "",
@@ -1220,6 +1234,7 @@
                   "tooltip": false,
                   "viz": false
                 },
+                "insertNulls": false,
                 "lineInterpolation": "linear",
                 "lineWidth": 1,
                 "pointSize": 5,
@@ -1238,6 +1253,7 @@
               },
               "links": [],
               "mappings": [],
+              "min": 0,
               "thresholds": {
                 "mode": "absolute",
                 "steps": [
@@ -1258,7 +1274,7 @@
             "h": 10,
             "w": 24,
             "x": 0,
-            "y": 57
+            "y": 37
           },
           "id": 1926,
           "options": {
@@ -1310,6 +1326,7 @@
                 "mode": "palette-classic"
               },
               "custom": {
+                "axisBorderShow": false,
                 "axisCenteredZero": false,
                 "axisColorMode": "text",
                 "axisLabel": "",
@@ -1324,6 +1341,7 @@
                   "tooltip": false,
                   "viz": false
                 },
+                "insertNulls": false,
                 "lineInterpolation": "linear",
                 "lineWidth": 0,
                 "pointSize": 5,
@@ -1342,6 +1360,7 @@
               },
               "links": [],
               "mappings": [],
+              "min": 0,
               "thresholds": {
                 "mode": "absolute",
                 "steps": [
@@ -1362,7 +1381,7 @@
             "h": 7,
             "w": 24,
             "x": 0,
-            "y": 67
+            "y": 47
           },
           "id": 1798,
           "maxDataPoints": 128,
@@ -1417,6 +1436,122 @@
         "w": 24,
         "x": 0,
         "y": 37
+      },
+      "id": 1962,
+      "panels": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "PE93372533F323B2F"
+          },
+          "fieldConfig": {
+            "defaults": {
+              "custom": {
+                "hideFrom": {
+                  "legend": false,
+                  "tooltip": false,
+                  "viz": false
+                },
+                "scaleDistribution": {
+                  "type": "linear"
+                }
+              }
+            },
+            "overrides": []
+          },
+          "gridPos": {
+            "h": 11,
+            "w": 24,
+            "x": 0,
+            "y": 38
+          },
+          "id": 1927,
+          "interval": "5s",
+          "maxDataPoints": 250,
+          "options": {
+            "calculate": false,
+            "calculation": {
+              "xBuckets": {
+                "mode": "size"
+              },
+              "yBuckets": {
+                "mode": "size",
+                "scale": {
+                  "log": 2,
+                  "type": "log"
+                }
+              }
+            },
+            "cellGap": 1,
+            "color": {
+              "exponent": 0.5,
+              "fill": "dark-orange",
+              "mode": "scheme",
+              "reverse": false,
+              "scale": "exponential",
+              "scheme": "Oranges",
+              "steps": 64
+            },
+            "exemplars": {
+              "color": "rgba(255,0,255,0.7)"
+            },
+            "filterValues": {
+              "le": 1e-9
+            },
+            "legend": {
+              "show": true
+            },
+            "rowsFrame": {
+              "layout": "auto"
+            },
+            "tooltip": {
+              "show": true,
+              "showColorScale": false,
+              "yHistogram": true
+            },
+            "yAxis": {
+              "axisPlacement": "left",
+              "axisWidth": 80,
+              "reverse": false,
+              "unit": "s"
+            }
+          },
+          "pluginVersion": "10.2.3",
+          "repeat": "samples_detail",
+          "repeatDirection": "v",
+          "targets": [
+            {
+              "datasource": {
+                "type": "prometheus",
+                "uid": "PE93372533F323B2F"
+              },
+              "disableTextWrap": false,
+              "editorMode": "code",
+              "expr": "sum by(le) (increase(nano_stats_samples_bucket{job='${Job}',instance=~'${Instance}',sample=~'${samples_detail}'}[$__interval]))",
+              "fullMetaSearch": false,
+              "includeNullMetadata": false,
+              "instant": false,
+              "interval": "",
+              "legendFormat": "__auto",
+              "range": true,
+              "refId": "A",
+              "useBackend": false
+            }
+          ],
+          "title": "${samples_detail} (over $__interval) [ ${Instance} ]",
+          "type": "heatmap"
+        }
+      ],
+      "title": "Heatmaps",
+      "type": "row"
+    },
+    {
+      "collapsed": true,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 38
       },
       "id": 1332,
       "panels": [
@@ -1483,7 +1618,7 @@
             "h": 9,
             "w": 24,
             "x": 0,
-            "y": 45
+            "y": 53
           },
           "id": 1329,
           "options": {
@@ -1586,7 +1721,7 @@
             "h": 7,
             "w": 24,
             "x": 0,
-            "y": 54
+            "y": 62
           },
           "id": 1330,
           "options": {
@@ -1638,7 +1773,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 38
+        "y": 39
       },
       "id": 1306,
       "panels": [
@@ -1705,7 +1840,7 @@
             "h": 9,
             "w": 24,
             "x": 0,
-            "y": 76
+            "y": 84
           },
           "id": 1281,
           "options": {
@@ -1808,7 +1943,7 @@
             "h": 7,
             "w": 24,
             "x": 0,
-            "y": 85
+            "y": 93
           },
           "id": 1304,
           "options": {
@@ -1860,7 +1995,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 39
+        "y": 40
       },
       "id": 1807,
       "panels": [
@@ -1958,7 +2093,7 @@
             "h": 9,
             "w": 24,
             "x": 0,
-            "y": 78
+            "y": 86
           },
           "id": 1805,
           "options": {
@@ -2082,7 +2217,7 @@
             "h": 7,
             "w": 24,
             "x": 0,
-            "y": 87
+            "y": 95
           },
           "id": 1814,
           "options": {
@@ -2134,7 +2269,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 40
+        "y": 41
       },
       "id": 1139,
       "panels": [
@@ -2201,7 +2336,7 @@
             "h": 7,
             "w": 24,
             "x": 0,
-            "y": 78
+            "y": 86
           },
           "id": 1137,
           "options": {
@@ -2265,7 +2400,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 41
+        "y": 42
       },
       "id": 38,
       "panels": [
@@ -2332,7 +2467,7 @@
             "h": 6,
             "w": 24,
             "x": 0,
-            "y": 79
+            "y": 87
           },
           "id": 14,
           "maxDataPoints": 128,
@@ -2394,7 +2529,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 42
+        "y": 43
       },
       "id": 1183,
       "panels": [
@@ -2481,7 +2616,7 @@
             "h": 7,
             "w": 24,
             "x": 0,
-            "y": 50
+            "y": 58
           },
           "id": 1202,
           "interval": "",
@@ -2535,7 +2670,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 43
+        "y": 44
       },
       "id": 1148,
       "panels": [
@@ -2603,7 +2738,7 @@
             "h": 6,
             "w": 24,
             "x": 0,
-            "y": 58
+            "y": 66
           },
           "id": 16,
           "options": {
@@ -2653,7 +2788,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 44
+        "y": 45
       },
       "id": 1746,
       "panels": [
@@ -2682,7 +2817,7 @@
             "h": 12,
             "w": 24,
             "x": 0,
-            "y": 59
+            "y": 67
           },
           "id": 1734,
           "options": {
@@ -2756,7 +2891,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 45
+        "y": 46
       },
       "id": 1131,
       "panels": [
@@ -2824,7 +2959,7 @@
             "h": 7,
             "w": 24,
             "x": 0,
-            "y": 60
+            "y": 68
           },
           "id": 1129,
           "maxDataPoints": 128,
@@ -2893,7 +3028,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 46
+        "y": 47
       },
       "id": 919,
       "panels": [
@@ -2960,7 +3095,7 @@
             "h": 7,
             "w": 24,
             "x": 0,
-            "y": 62
+            "y": 70
           },
           "id": 921,
           "options": {
@@ -3022,7 +3157,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 47
+        "y": 48
       },
       "id": 183,
       "panels": [
@@ -3090,7 +3225,7 @@
             "h": 7,
             "w": 24,
             "x": 0,
-            "y": 63
+            "y": 71
           },
           "id": 185,
           "options": {
@@ -3152,7 +3287,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 48
+        "y": 49
       },
       "id": 25,
       "panels": [
@@ -3177,7 +3312,7 @@
             "h": 12,
             "w": 7,
             "x": 0,
-            "y": 64
+            "y": 72
           },
           "hiddenSeries": false,
           "id": 26,
@@ -3258,7 +3393,7 @@
             "h": 12,
             "w": 7,
             "x": 7,
-            "y": 64
+            "y": 72
           },
           "id": 46,
           "links": [],
@@ -3325,7 +3460,7 @@
             "h": 12,
             "w": 10,
             "x": 14,
-            "y": 64
+            "y": 72
           },
           "id": 47,
           "links": [],
@@ -3391,7 +3526,7 @@
             "h": 13,
             "w": 24,
             "x": 0,
-            "y": 76
+            "y": 84
           },
           "id": 45,
           "pluginVersion": "6.6.1",
@@ -3622,7 +3757,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 49
+        "y": 50
       },
       "id": 42,
       "panels": [
@@ -3637,7 +3772,7 @@
             "h": 6,
             "w": 24,
             "x": 0,
-            "y": 80
+            "y": 88
           },
           "id": 44,
           "showHeader": true,
@@ -3712,7 +3847,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 50
+        "y": 51
       },
       "id": 1036,
       "panels": [
@@ -3775,7 +3910,7 @@
             "h": 20,
             "w": 24,
             "x": 0,
-            "y": 81
+            "y": 89
           },
           "id": 1034,
           "options": {
@@ -3835,8 +3970,7 @@
   ],
   "refresh": "5s",
   "revision": 1,
-  "schemaVersion": 38,
-  "style": "dark",
+  "schemaVersion": 39,
   "tags": [
     "nano"
   ],
@@ -3846,8 +3980,8 @@
         "allValue": "",
         "current": {
           "selected": false,
-          "text": "beta_2023-11-08_19:02:28.249793",
-          "value": "beta_2023-11-08_19:02:28.249793"
+          "text": "live_2024-03-05_21:08:24.951609",
+          "value": "live_2024-03-05_21:08:24.951609"
         },
         "datasource": {
           "type": "prometheus",
@@ -3873,7 +4007,7 @@
       {
         "allValue": "",
         "current": {
-          "selected": true,
+          "selected": false,
           "text": [
             "All"
           ],
@@ -3905,7 +4039,7 @@
       {
         "allValue": "",
         "current": {
-          "selected": true,
+          "selected": false,
           "text": [
             "All"
           ],
@@ -3939,7 +4073,7 @@
       },
       {
         "current": {
-          "selected": true,
+          "selected": false,
           "text": [
             "All"
           ],
@@ -3973,7 +4107,7 @@
       },
       {
         "current": {
-          "selected": true,
+          "selected": false,
           "text": [
             "All"
           ],
@@ -4004,7 +4138,7 @@
       },
       {
         "current": {
-          "selected": true,
+          "selected": false,
           "text": [
             "All"
           ],
@@ -4039,7 +4173,7 @@
       {
         "allValue": "",
         "current": {
-          "selected": true,
+          "selected": false,
           "text": [
             "All"
           ],
@@ -4075,7 +4209,7 @@
       },
       {
         "current": {
-          "selected": true,
+          "selected": false,
           "text": [
             "All"
           ],
@@ -4112,7 +4246,7 @@
         "auto_count": 30,
         "auto_min": "10s",
         "current": {
-          "selected": false,
+          "selected": true,
           "text": "15s",
           "value": "15s"
         },
@@ -4157,7 +4291,7 @@
         "auto_count": 30,
         "auto_min": "10s",
         "current": {
-          "selected": false,
+          "selected": true,
           "text": "1s",
           "value": "1s"
         },
@@ -4202,9 +4336,42 @@
           }
         ],
         "query": "1s, 3s, 5s, 10s, 15s, 30s, 60s",
+        "queryValue": "",
         "refresh": 1,
         "skipUrlSync": false,
         "type": "interval"
+      },
+      {
+        "current": {
+          "selected": false,
+          "text": [
+            "All"
+          ],
+          "value": [
+            "$__all"
+          ]
+        },
+        "datasource": {
+          "type": "prometheus",
+          "uid": "PE93372533F323B2F"
+        },
+        "definition": "label_values(nano_stats_samples_count,sample)",
+        "hide": 0,
+        "includeAll": true,
+        "label": "Samples",
+        "multi": true,
+        "name": "samples_detail",
+        "options": [],
+        "query": {
+          "qryType": 1,
+          "query": "label_values(nano_stats_samples_count,sample)",
+          "refId": "PrometheusVariableQueryEditor-VariableQuery"
+        },
+        "refresh": 1,
+        "regex": "",
+        "skipUrlSync": false,
+        "sort": 0,
+        "type": "query"
       }
     ]
   },
@@ -4228,7 +4395,7 @@
   },
   "timezone": "browser",
   "title": "Overview",
-  "uid": "nano-overview",
-  "version": 38,
+  "uid": "nano-overview-wip",
+  "version": 21,
   "weekStart": ""
 }
